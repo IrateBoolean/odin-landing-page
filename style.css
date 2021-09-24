@@ -1,0 +1,50 @@
+* {
+  border: solid red 1px;
+  margin: 0;
+  flex: 1 1 0;
+}
+
+ul{
+  list-style-type: none
+}
+
+li {
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  padding: 24px;
+  flex: 0 1 auto;
+}
+
+
+
+header,
+footer,
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+
+}
+
+footer {
+  padding: 24px;
+  flex: 0 0 0;
+  text-align: center;
+
+}
