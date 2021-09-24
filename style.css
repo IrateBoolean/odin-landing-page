@@ -1,15 +1,50 @@
 * {
-  border: solid red 1px;
   margin: 0;
-  flex: 1 1 0;
+  font-family: sans-serif;
 }
 
 ul{
-  list-style-type: none
+  list-style-type: none;
+  margin-left: auto;
 }
 
 li {
   float: right;
+  margin: 0 5px;
+}
+
+
+.content {
+  padding: 25px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  flex: auto;
+  align-self: center;
+}
+
+.gallery,
+.quote,
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+header,
+footer,
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: center;
+  display: flex;
 }
 
 li a {
@@ -28,23 +63,43 @@ li a {
 
 header {
   display: flex;
-  padding: 24px;
   flex: 0 1 auto;
 }
 
-
-
-header,
-footer,
-.hero {
-  background-color: #1F2937;
+header p {
+  font-size: 24px;
   color: #F9FAF8;
-
 }
+
+
+
 
 footer {
   padding: 24px;
   flex: 0 0 0;
-  text-align: center;
-
 }
+
+footer.content {
+  text-align: center;
+  align-items: center;
+}
+
+
+.hero {
+  flex: auto;
+}
+.hero-left, .hero-right {
+  flex: 1 1 50%;
+}
+.hero-left button {
+  text-align: left;
+  align-self: flex-start;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px 20px;
+}
+
+
+
