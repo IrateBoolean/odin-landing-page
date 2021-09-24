@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: sans-serif;
+  border: red solid 1px;
 }
 
 ul{
@@ -59,6 +60,7 @@ li a {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
+  padding: 25px;
 }
 
 header {
@@ -100,6 +102,31 @@ footer.content {
   color: #F9FAF8;
   padding: 5px 20px;
 }
+.rounded-square {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px #3882F6 solid;
+}
+
+h2 {
+  margin: 15px;
+}
 
 
+.gallery {
+  flex-direction: column;
+  margin: 25px;
+}
 
+.image-gallery {
+  display: flex;
+  gap: 15px;
+}
+
+.image-box {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
